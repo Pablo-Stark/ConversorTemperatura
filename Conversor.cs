@@ -1,13 +1,15 @@
-
-public static class Conversor
+namespace ConversorTemperatura
 {
-    public static double CelsiusParaFahrenheit(double celsius)
+    public static class Conversor
     {
-        return (celsius * 9 / 5) + 32;
-    }
+        public static double CelsiusParaFahrenheit(double celsius)
+        {
+            return (celsius * 9 / 5) + 32;
+        }
 
-    public static double FahrenheitParaCelsius(double fahrenheit)
-    {
-        return (fahrenheit - 32) * 5 / 9;
+        public static double FahrenheitParaCelsius(double fahrenheit)
+        {
+            return (fahrenheit - 32) * 5 / 9;
+        }
     }
 }
